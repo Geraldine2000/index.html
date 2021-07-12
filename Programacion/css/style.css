@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+html
+{ font-size: 16px;}
+
+header
+{
+    height: 5rem;
+}
+#logo { 
+    height: 4em;
+    display: block;
+    margin: auto;
+    
+}
+nav {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   }
+nav ul
+{
+    list-style: none;
+    display: flex;
+    margin: auto; 
+
+}
+nav ul li {
+
+    margin: auto;
+    height: 2em;
+    
+}
+#letramenu {
+    text-decoration: none;
+    color: black;
+}
+
+.portada{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+    display: block;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+
+}
+.masvendidos {
+    justify-content: space-between;
+
+    display: flex;
+    margin: auto;
+    list-style: none;
+    
+}
+.cajadeproducto{
+  box-sizing: border-box;
+  background-color: rgb(212, 211, 211);
+  padding: 0.6rem;
+}
+.imagendeproducto
+{
+    width: 14rem;
+}
+.preciodeproducto {
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+.botondelproducto {
+   background-color: antiquewhite;
+
+}
+
+
+
+
+    
